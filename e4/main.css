@@ -1,0 +1,35 @@
+body {
+  background-color: #a35ba4;
+  margin: 0;
+  font-size: 50px;
+  font-family: 'Lobster', cursive;
+}
+p {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+.bigger {
+  font-size: 5em;
+}
+div {
+  margin-top: 50vh;
+}
+.mobile-only {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: black;
+  }
+  p {
+    color: red;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
+}
